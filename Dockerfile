@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM bitnami/nginx
 
 ## Remove default nginx website
 RUN rm -rf /usr/share/nginx/html/*
